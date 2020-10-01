@@ -1138,10 +1138,6 @@ def _save():
         json.dump(characters, f)
     f.close()
 
-extensions = [
- 'cogs.cog_example'  # Same name as it would be if you were importing it
-]
-
 if __name__ == '__main__':  # Ensures this is the file being ran
     for extension in extensions:
         bot.load_extension(extension)  # Loades every extension.
